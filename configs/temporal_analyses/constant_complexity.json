@@ -1,0 +1,34 @@
+{
+    "data_to_load": {    
+            "2013_data": {
+                "complexity_year": "2019",
+                "encoder_year": "2013",
+                "need_year": "2013",
+                "similarity_year": "2019"
+            },
+            "2015_data": {
+                "complexity_year": "2019",
+                "encoder_year": "2015",
+                "need_year": "2015",
+                "similarity_year": "2019"
+            },
+            "2017_data": {
+                "complexity_year": "2019",
+                "encoder_year": "2017",
+                "need_year": "2017",
+                "similarity_year": "2019"
+            },
+            "2019_data": {
+                "complexity_year": "2019",
+                "encoder_year": "2019",
+                "need_year": "2019",
+                "similarity_year": "2019"
+            }
+    }, 
+    "comparisons": [
+                        ["2013_data", "2015_data", "askreddit"], ["2015_data", "2017_data", "askreddit"], 
+                        ["2017_data", "2019_data", "askreddit"], ["2013_data", "2019_data", "askreddit"],
+                        ["2013_data", "2015_data", "community_specific"], ["2015_data", "2017_data", "community_specific"], 
+                        ["2017_data", "2019_data", "community_specific"], ["2013_data", "2019_data", "community_specific"]
+                    ]
+}

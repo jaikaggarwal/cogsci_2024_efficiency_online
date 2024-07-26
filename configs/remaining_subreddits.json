@@ -1,0 +1,17 @@
+{
+    "root_dir": "/ais/hal9000/datasets/reddit/stance_pipeline/",
+    "sub_dir": "luo_data/",
+    "raw_data_dir": "processed_data/",
+    "pipeline_data_dir": "current_data/",
+    "embeddings_dir": "embeddings/",
+    "situations_dir": "full_features/",
+    "min_year": 2019,
+    "max_year": 2019,
+    "num_cores": 6,
+    "range_start": 0,
+    "range_finish": 12,
+    "num_quantiles": 4,
+    "semantic_situation_properties": ["Valence", "Arousal", "Dominance", "Politeness", "Formality"],
+    "save_suffix": "luo_data_2019_remaining",
+    "communities_of_interest": "/ais/hal9000/datasets/reddit/stance_pipeline/luo_data/community_lists/remaining.txt"
+}

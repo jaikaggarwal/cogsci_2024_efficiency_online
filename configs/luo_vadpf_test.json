@@ -1,0 +1,10 @@
+{
+    "root_dir": "/ais/hal9000/datasets/reddit/stance_pipeline/",
+    "sub_dir": "luo_tiny_test/",
+    "data_dir": "current_data/",
+    "embeddings_dir": "embeddings/",
+    "situations_dir": "full_features/",
+    "num_cores": 12,
+    "range_start": 0,
+    "range_finish": 12
+}

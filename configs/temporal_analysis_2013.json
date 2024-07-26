@@ -1,0 +1,18 @@
+{
+    "root_dir": "/ais/hal9000/datasets/reddit/stance_pipeline/",
+    "sub_dir": "temporal_analysis_2013/",
+    "raw_data_dir": "processed_data/",
+    "pipeline_data_dir": "communities_data/",
+    "embeddings_dir": "embeddings/",
+    "sample_data_dir": "sampled_data/",
+    "situations_dir": "full_features/",
+    "min_year": 2013,
+    "max_year": 2013,
+    "num_cores": 6,
+    "range_start": 0,
+    "range_finish": 12,
+    "num_quantiles": 3,
+    "semantic_situation_properties": ["Valence", "Arousal", "Dominance", "Politeness", "Formality"],
+    "save_suffix": "temporal_analysis_2013_using_2019_bins",
+    "communities_of_interest": "/u/prabuddha/jai/data/temporal_analysis_2013_communities.txt"
+}

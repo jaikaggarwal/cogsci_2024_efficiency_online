@@ -1,0 +1,6 @@
+{
+    "num_generations": 50,
+    "population_size": 200,
+    "recombination_method": "discrete_recombination",
+    ""
+}

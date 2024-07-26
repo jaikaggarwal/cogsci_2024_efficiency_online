@@ -1,0 +1,18 @@
+{
+    "root_dir": "/ais/hal9000/datasets/reddit/stance_pipeline/",
+    "sub_dir": "cogsci_2024/",
+    "raw_data_dir": "processed_data/",
+    "pipeline_data_dir": "communities_data/",
+    "sample_data_dir": "sampled_data/",
+    "embeddings_dir": "embeddings/",
+    "situations_dir": "full_features/",
+    "min_year": 2019,
+    "max_year": 2019,
+    "num_cores": 3,
+    "range_start": 0,
+    "range_finish": 12,
+    "num_quantiles": 3,
+    "semantic_situation_properties": ["Valence", "Arousal", "Dominance", "Politeness", "Formality"],
+    "save_suffix": "cogsci_2024",
+    "communities_of_interest": "/u/jai/efficiency/data/cogsci_2024_communities.txt"
+}
